@@ -218,3 +218,20 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- secrets and captured traffic: NEVER commit ---
+# secrets and captured traffic - NEVER commit
+.env
+.env.*
+!.env.example
+*.har
+*.har.json
+raw_request*
+request*.txt
+curl*.txt
+cookies*
+session*
+*.pem
+*.key
+__pycache__/
+*.pyc
